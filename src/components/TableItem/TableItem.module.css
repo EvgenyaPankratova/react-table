@@ -1,0 +1,50 @@
+.table_item {
+  color: #474955;
+  font-weight: 500;
+  font-size: 13px;
+  vertical-align: middle;
+  height: 5rem;
+}
+
+.table_item_id {
+  text-align: center;
+  width: 3rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 376px) {
+  .table_item {
+    font-size: 9px;
+    max-height: 2rem;
+  }
+
+  .table_item_id {
+    text-align: center;
+    width: 3rem;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 576px) {
+  .table_item {
+    font-size: 10px;
+    max-height: 1rem;
+  }
+
+  .table_item_id {
+    text-align: center;
+    width: 2rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .table_item {
+    font-size: 11px;
+    max-height: 2rem;
+  }
+
+  .table_item_id {
+    text-align: center;
+    width: 2rem;
+  }
+}
+
